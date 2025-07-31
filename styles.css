@@ -1,0 +1,96 @@
+:root {
+  --accent: #0077cc;
+  --bg: #f0f4f8;
+  --text: #1a1c20;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+nav {
+  background-color: var(--accent);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.intro h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.skills .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skills .tags span {
+  background: white;
+  padding: 8px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+form button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 0.9em;
+}
